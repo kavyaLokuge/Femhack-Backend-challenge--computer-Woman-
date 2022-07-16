@@ -1,8 +1,9 @@
+#Finding the Projectile 
 
 import math
 
-##take inputs
-##assuming all inputs are in SI units
+#take inputs
+#assuming all inputs are in SI units
 launch_angle=float(input('Enter the launch angle(in degrees):'))
 ##convert angle to radians, since python takes radians as argument
 launch_angle_radians=math.radians(launch_angle)
